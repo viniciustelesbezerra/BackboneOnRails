@@ -3,9 +3,7 @@
 	List.Controller =
 		
 		listHeader: ->
-			links = App.request "header:entities"
-			
-			headerView = @getHeaderView links
+			headerView = @getHeaderView App.request "header:entities"
 			App.headerRegion.show headerView
 		
 		getHeaderView: (links) ->

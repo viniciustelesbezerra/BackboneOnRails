@@ -12,7 +12,6 @@
 		App.module("FooterApp").start()
 	
 	App.on "initialize:after", ->
-		if Backbone.history
-			Backbone.history.start()
+		Backbone.history.start() if Backbone.history
 	
 	App
