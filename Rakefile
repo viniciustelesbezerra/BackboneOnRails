@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-BackboneonRails::Application.load_tasks
+BackbonerailsDemo::Application.load_tasks
