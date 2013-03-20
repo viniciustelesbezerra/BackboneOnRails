@@ -86,3 +86,480 @@ Served asset /backbone/apps/header/list/templates/headers.js - 304 Not Modified 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 16:52:20 -0300
 Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/flex/new_boq.html" for 127.0.0.1 at 2013-03-11 17:49:29 -0300
+
+ActionController::RoutingError (No route matches [GET] "/flex/new_boq.html"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 12:28:19 -0300
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__891830122__call__393871493__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.2ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 12:30:01 -0300
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__891830122__call__393871493__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 12:31:06 -0300
+Connecting to database specified by database.yml
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Compiled backbone/entities/_base/collections.js  (454ms)  (pid 5804)
+Compiled backbone/entities/_base/models.js  (150ms)  (pid 5804)
+Compiled application.js  (10ms)  (pid 5804)
+Completed 200 OK in 1064ms (Views: 1064.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/lib/underscore.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /lib/underscore.js - 200 OK (2ms)
+
+
+Started GET "/assets/lib/backbone.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /lib/backbone.js - 200 OK (1ms)
+
+
+Started GET "/assets/lib/marionette.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /lib/marionette.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/config/marionette/renderer.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/config/marionette/renderer.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/app.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/app.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/_base/collections.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/entities/_base/collections.js - 200 OK (3ms)
+
+
+Started GET "/assets/backbone/entities/_base/models.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/entities/_base/models.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/header.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/entities/header.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/footer/footer_app.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/footer/footer_app.js - 200 OK (3ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_controller.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/footer/show/show_controller.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_view.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/footer/show/show_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/templates/show_footer.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/footer/show/templates/show_footer.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/header/header_app.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/header/header_app.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_controller.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/header/list/list_controller.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_view.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/header/list/list_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/_header.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/header/list/templates/_header.js - 200 OK (3ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/headers.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /backbone/apps/header/list/templates/headers.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-20 12:31:08 -0300
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 13:00:40 -0300
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Compiled backbone/app.js  (158ms)  (pid 5804)
+Compiled backbone/entities/_base/collections.js  (156ms)  (pid 5804)
+Compiled backbone/entities/_base/models.js  (170ms)  (pid 5804)
+Compiled backbone/entities/main.js  (157ms)  (pid 5804)
+Compiled backbone/apps/main/main_app.js  (161ms)  (pid 5804)
+Compiled backbone/apps/main/populate/populate_controller.js  (185ms)  (pid 5804)
+Compiled backbone/apps/main/populate/populate_view.js  (173ms)  (pid 5804)
+Compiled backbone/apps/main/populate/templates/_main.js  (185ms)  (pid 5804)
+Compiled backbone/apps/main/populate/templates/mains.js  (167ms)  (pid 5804)
+Compiled application.js  (1228ms)  (pid 5804)
+Completed 200 OK in 2068ms (Views: 2067.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/underscore.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /lib/underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/lib/backbone.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /lib/backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/marionette.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /lib/marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/config/marionette/renderer.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/config/marionette/renderer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/app.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/app.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/_base/collections.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/entities/_base/collections.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/_base/models.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/entities/_base/models.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/main.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/entities/main.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/entities/header.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/entities/header.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/footer_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/footer/footer_app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/footer/show/show_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/footer/show/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/templates/show_footer.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/footer/show/templates/show_footer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/header/header_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/header/header_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:42 -0300
+Served asset /backbone/apps/header/list/list_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/header/list/list_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/_header.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/header/list/templates/_header.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/headers.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/header/list/templates/headers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/main_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/main/main_app.js - 200 OK (15ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/populate_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/main/populate/populate_controller.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/populate_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/main/populate/populate_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/templates/_main.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/main/populate/templates/_main.js - 200 OK (1ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/templates/mains.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /backbone/apps/main/populate/templates/mains.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-20 13:00:43 -0300
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 13:01:16 -0300
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Compiled backbone/apps/main/populate/templates/mains.js  (146ms)  (pid 5804)
+Compiled application.js  (212ms)  (pid 5804)
+Completed 200 OK in 478ms (Views: 477.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/underscore.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /lib/underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/backbone.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /lib/backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/marionette.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /lib/marionette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/config/marionette/renderer.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/config/marionette/renderer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/app.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/entities/_base/collections.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/entities/_base/collections.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/entities/_base/models.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/entities/_base/models.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/entities/header.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/entities/header.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/entities/main.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/entities/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/footer_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/apps/footer/footer_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:17 -0300
+Served asset /backbone/apps/footer/show/show_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/show_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/footer/show/show_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/footer/show/templates/show_footer.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/footer/show/templates/show_footer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/header_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/header/header_app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/header/list/list_controller.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone/apps/header/list/list_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/header/list/list_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/_header.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/header/list/templates/_header.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/header/list/templates/headers.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/header/list/templates/headers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/main_app.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/main/main_app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/populate_controller.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/main/populate/populate_controller.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/populate_view.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/main/populate/populate_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/templates/_main.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/main/populate/templates/_main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone/apps/main/populate/templates/mains.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /backbone/apps/main/populate/templates/mains.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-20 13:01:18 -0300
+Served asset /application.js - 304 Not Modified (29ms)

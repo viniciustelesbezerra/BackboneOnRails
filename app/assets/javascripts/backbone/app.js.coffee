@@ -10,6 +10,7 @@
 	App.addInitializer ->
 		App.module("HeaderApp").start()
 		App.module("FooterApp").start()
+		App.module("MainApp").start()
 	
 	App.on "initialize:after", ->
 		Backbone.history.start() if Backbone.history
