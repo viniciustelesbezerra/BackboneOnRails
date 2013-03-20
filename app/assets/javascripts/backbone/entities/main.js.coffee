@@ -5,20 +5,31 @@
 	class Users.MainCollection extends Users.Collection
 		model: Users.Main
 		url: '/users'
-		parse: (response) -> 
-			console.log response
-			response
+		parse: (res) ->
+			console.log res
+			res
+
 	
 	API =
 		getMains: ->
-			userscollection = new Users.MainCollection
-			coll = userscollection.fetch()
-			console.log coll
+			colls = new Users.MainCollection
+
+			result = []
+
+			colls.fetch
+				async: false,
+            	success: (user) ->     
+              		result.push user.models[0].attributes
+
 			#new Users.MainCollection [
 			#	{ name: "x" }
 			#	{ name: "y" }
 			#	{ name: "z" }
+			#	result
 			#]
+
+			console.log result
+			#new Users.MainCollection result
 	
 	App.reqres.addHandler "main:users", ->
 		API.getMains()
