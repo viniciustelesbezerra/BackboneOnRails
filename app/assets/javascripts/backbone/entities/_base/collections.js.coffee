@@ -5,4 +5,3 @@
 @Demo.module "Users", (Users, App, Backbone, Marionette, $, _) ->
 	
 	class Users.Collection extends Backbone.Collection	
-		console.log @
