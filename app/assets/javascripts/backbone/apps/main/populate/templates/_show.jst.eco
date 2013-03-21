@@ -1,0 +1,5 @@
+<%= console.log @ %>
+<i>Id User <%= @id %></i>
+<%= @status %>
+<%= @created_at %>
+<%= @updated_at %>

@@ -8,7 +8,7 @@
 		destroyUserModel: ->
 			@.destroy()
 
-		showUserModel: ->	
+		#//showUserModel: ->	
 	
   		updateUserModel: ->
   			#//@.set({})

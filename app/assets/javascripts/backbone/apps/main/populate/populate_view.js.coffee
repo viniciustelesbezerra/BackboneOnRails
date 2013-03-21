@@ -4,13 +4,9 @@
 		template: "main/populate/templates/_main"
 		tagName: "tr"
 		events: 
-    		"click a#show": "showUser"
     		"click a#update": "updateUser"
     		"click a#destroy": "destroyUser"
 
-  		showUser: ->
-  			@.model.showUserModel()
-	
   		updateUser: ->
   			@.model.updateUserModel() 
 
@@ -21,3 +17,6 @@
 		template: "main/populate/templates/mains"
 		itemView: Populate.Main
 		itemViewContainer: "tbody"
+
+	class Populate.Shows extends Marionette.ItemView
+		template: "main/populate/templates/shows"

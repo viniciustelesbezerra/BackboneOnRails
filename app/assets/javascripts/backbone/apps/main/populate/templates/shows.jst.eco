@@ -1,0 +1,6 @@
+<%= console.log @ %>
+<h3>Individual User</h3>
+<div id='userindevidual'>
+	<i>Id:<%= @id %></i>
+	<i>Name:<%= @name %></i>
+</div>
