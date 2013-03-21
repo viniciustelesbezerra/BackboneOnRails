@@ -1,1 +1,8 @@
-<%= @name %>
+<td><%= @name %></td>
+<td><%= @age %></td>
+<td><%= @status %></td>
+<td><%= @created_at %></td>
+<td><%= @updated_at %></td>
+<td><a href="#" id="show" data-value="<%= @id %>">Show</a></td>
+<td><a href="#" id="update" data-value="<%= @id %>">Update</a></td>
+<td><a href="#" id="destroy" data-value="<%= @id %>">Destroy</a></td>

@@ -1,1 +1,17 @@
-<ul></ul>
+<h3>Users</h3>
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Status</th>
+			<th>Created AT</th>
+			<th>Updeted AT</th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
