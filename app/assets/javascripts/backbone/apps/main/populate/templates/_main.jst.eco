@@ -3,6 +3,6 @@
 <td><%= @status %></td>
 <td><%= @created_at %></td>
 <td><%= @updated_at %></td>
-<td><a href="#" id="show" data-value="<%= @id %>">Show</a></td>
-<td><a href="#" id="update" data-value="<%= @id %>">Update</a></td>
-<td><a href="#" id="destroy" data-value="<%= @id %>">Destroy</a></td>
+<td><a href="/#users/<%= @id %>" id="show" data-idvalue="<%= @id %>">Show</a></td>
+<td><a href="#" id="update" data-idvalue="<%= @id %>">Update</a></td>
+<td><a href="#" id="destroy" data-idvalue="<%= @id %>">Destroy</a></td>
